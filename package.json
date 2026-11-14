@@ -1,0 +1,25 @@
+{
+  "name": "typescript-directory-scanner",
+  "version": "1.0.0",
+  "description": "This TypeScript CLI application recursively scans a target directory on a user's file system and generates a standalone, interactive HTML visual map of the folder hierarchy. Built using TypeScript and Node.js, it asynchronously traverses directories, aggregates file metrics, and embeds the resulting nested JSON tree directly into a self-contained HTML template for instant browser exploration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KEKE003/typescript-directory-scanner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/KEKE003/typescript-directory-scanner/issues"
+  },
+  "homepage": "https://github.com/KEKE003/typescript-directory-scanner#readme",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}

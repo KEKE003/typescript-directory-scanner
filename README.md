@@ -15,8 +15,3 @@ This TypeScript CLI application recursively scans a target directory on a user's
 * [TypeScript Official Handbook](https://typescriptlang.org)
 * [Node.js File System (`fs/promises`) Documentation](https://nodejs.org)
 * [MDN Web Docs: HTML `<details>` & `<summary>` / DOM Manipulation](https://mozilla.org)
-
-# Future Work
-* Add support for multiple exclusion patterns via a `.scanignore` configuration file.
-* Include visual storage analytics.
-* Add a search and filter bar inside the generated HTML map to locate specific files quickly.
