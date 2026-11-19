@@ -1,0 +1,59 @@
+body {
+    font-family: system-ui, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+.header { 
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.stats {
+    color: #555;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+    border-left: 1px solid #ccc;
+}
+
+li {
+    margin: 5px 0;
+    position: relative;
+}
+
+.node {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+.node:hover {
+    background-color: #e0e0e0;
+}
+
+.dir {
+    font-weight: bold;
+    color: #2a7ae2;
+}
+
+.file {
+    color: #555;
+}
+
+.badge {
+    font-size: 0.8em;
+    color: #666;
+    background: #ededed;
+    border-radius: 3px;
+    padding: 2px 5px;
+    margin-left: 5px;
+}
